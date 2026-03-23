@@ -1,0 +1,124 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[margin=0.75in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+% ===== Font =====
+\usepackage{mathpazo} % 고급스러운 serif font
+
+% ===== Color =====
+\definecolor{primary}{RGB}{0, 102, 204}
+\definecolor{graytext}{RGB}{80,80,80}
+
+% ===== Section Style =====
+\titleformat{\section}
+  {\large\bfseries\color{primary}}
+  {}{0em}{}[\titlerule]
+
+\titlespacing{\section}{0pt}{10pt}{6pt}
+
+% ===== Item Spacing =====
+\setlist[itemize]{noitemsep, topsep=3pt, leftmargin=1.2em}
+
+\setlength{\parindent}{0pt}
+
+\begin{document}
+
+% ===== Header =====
+\begin{center}
+    {\Huge \textbf{Kangsoo Lee}} \\
+    \vspace{4pt}
+    {\color{graytext} Bridging real-time perception systems and generative AI for real-world applications} \\
+    \vspace{6pt}
+    \href{mailto:leeks733@naver.com}{leeks733@naver.com} \,|\,
+    \href{https://github.com/Lee-Kangsoo}{github.com/Lee-Kangsoo} \,|\,
+    \href{https://www.linkedin.com/in/kang-soo-lee-b48563192/}{linkedin.com/in/kang-soo-lee}
+\end{center}
+
+\vspace{6pt}
+
+% ===== Summary =====
+\section*{Professional Summary}
+AI Engineer with 7+ years of experience in computer vision and generative AI.
+Specialized in real-time perception systems and diffusion-based generative models.
+Strong in bridging efficient system design with modern AI models, including BEV transformation and controllable image generation.
+
+% ===== Skills =====
+\section*{Core Competencies}
+\begin{itemize}
+    \item \textbf{Computer Vision \& 3D AI} – Lane Tracking, Parking Detection, BEV, Ego-Motion, Sensor Fusion
+    \item \textbf{Generative AI} – Diffusion Models, LLM, VLM, Image Generation (Stable Diffusion, LoRA, ControlNet)
+    \item \textbf{Programming} – C/C++, Python, Real-time Optimization
+    \item \textbf{Infrastructure} – Docker, Kubernetes
+\end{itemize}
+
+% ===== Experience =====
+\section*{Professional Experience}
+
+\textbf{GenGenAI} \hfill {\color{graytext} Apr.2022 -- Present} \\
+\textit{AI Engineer (Generative AI)}
+
+\begin{itemize}
+    \item \textbf{Generative AI Systems:} Designed and implemented diffusion-based pipelines for synthetic data generation
+    \item \textbf{Image Translation:} Built CycleGAN-based ISP simulation pipeline
+    \item \textbf{BEV Segmentation:} Developed transformer-based BEV segmentation model using multi-view inputs
+    \item \textbf{IR Image Generation:} Synthesized driver monitoring IR datasets across diverse conditions
+    \item \textbf{VLM + Diffusion:} Integrated Vision-Language Models to guide diffusion training
+\end{itemize}
+
+\vspace{4pt}
+
+\textbf{StradVision} \hfill {\color{graytext} Mar.2019 -- Mar.2022} \\
+\textit{Computer Vision Engineer}
+
+\begin{itemize}
+    \item \textbf{Perception Systems:} Developed real-time modules for lane tracking, parking detection, and ego-motion estimation
+    \item \textbf{BEV Transformation:} Built multi-camera (4-view) BEV transformation pipeline
+    \item \textbf{Optimization:} Reduced least squares computation time by \textbf{~10x}
+    \item \textbf{Memory Optimization:} Eliminated dynamic allocation for real-time execution
+    \item \textbf{Pose Estimation:} Estimated vehicle pose using CAN signals and perception-based correction
+\end{itemize}
+
+\vspace{4pt}
+
+\textbf{Chungbuk National University} \hfill {\color{graytext} Mar.2017 -- Feb.2019} \\
+\textit{Graduate Researcher}
+
+\begin{itemize}
+    \item Sensor fusion (camera, LiDAR, radar) for object detection and tracking
+    \item Kalman Filter-based tracking and 3D–2D projection
+    \item LiDAR-based perception using RANSAC and segmentation
+\end{itemize}
+
+% ===== Awards =====
+\section*{Awards}
+\begin{itemize}
+    \item \textbf{1st Place, Autonomous Driving Competition} — Ministry of Trade, Industry and Energy (2017)
+    \item \textbf{Autonomous Driving Competition Award} — Korea Automotive intelligent Automotive Parts Promotion Institute (2018)
+    \item \textbf{Academic Excellence Award} — Chungbuk National University (2017)
+\end{itemize}
+
+% ===== Certifications =====
+\section*{Certifications}
+\begin{itemize}
+    \item \textbf{Functional Safety Engineer (TÜV Rheinland)} — ISO 26262 (ASIL) \hfill {\color{graytext} 2020 -- 2025}
+\end{itemize}
+
+% ===== Education =====
+\section*{Education}
+
+\textbf{Chungbuk National University} \hfill {\color{graytext} Mar.2017 -- Feb.2019} \\
+\textit{M.S. in Control and Robotics Engineering} \\
+GPA: \textbf{4.06 / 4.5}
+
+\vspace{3pt}
+
+\textbf{Chungbuk National University} \hfill {\color{graytext} Mar.2010 -- Feb.2017} \\
+\textit{B.S. in Electronics Engineering} \\
+GPA: \textbf{4.28 / 4.5}, \textbf{Ranked 1st / 113}
+
+\end{document}

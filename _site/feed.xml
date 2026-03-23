@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko-KR"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="ko-KR" /><updated>2026-03-25T00:00:42+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">산만한 개발자</title><subtitle>Kangsoo Lee&apos;s portfolio and technical notes on computer vision, real-time perception systems, and generative AI.</subtitle><author><name>Lee Kangsoo</name></author><entry><title type="html">첫 기록을 남기며</title><link href="http://localhost:4000/%EA%B8%B0%EC%88%A0%EB%B8%94%EB%A1%9C%EA%B7%B8/2023/05/23/test.html" rel="alternate" type="text/html" title="첫 기록을 남기며" /><published>2023-05-23T00:24:46+09:00</published><updated>2023-05-23T00:24:46+09:00</updated><id>http://localhost:4000/%EA%B8%B0%EC%88%A0%EB%B8%94%EB%A1%9C%EA%B7%B8/2023/05/23/test</id><content type="html" xml:base="http://localhost:4000/%EA%B8%B0%EC%88%A0%EB%B8%94%EB%A1%9C%EA%B7%B8/2023/05/23/test.html"><![CDATA[<p>블로그를 열어 두고도 첫 글을 쓰지 않으면, 결국 기본 템플릿만 남습니다.
+그래서 긴 글이 아니더라도 일단 기록을 남기기 시작하려고 합니다.</p>
+
+<p>이 공간에는 완성된 지식만 올리기보다, 개발하면서 실제로 마주친 문제와 해결 과정을 정리할 예정입니다.
+나중에 같은 문제를 다시 만났을 때 빠르게 되짚어 볼 수 있는 메모가 목표입니다.</p>
+
+<p>앞으로는 다음 같은 내용을 자주 다루게 될 것 같습니다.</p>
+
+<ul>
+  <li>웹 개발 중 막힌 지점</li>
+  <li>설정과 배포 과정에서 놓치기 쉬운 부분</li>
+  <li>작더라도 반복 작업을 줄여 주는 자동화</li>
+  <li>다시 읽기 위한 짧은 개념 정리</li>
+</ul>
+
+<p>시작은 단순하지만, 기록이 쌓이면 꽤 유용한 개인 문서가 될 거라고 생각합니다.</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p>Check out the [Naver][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://google.com">Google</a>. If you have questions, you can ask them on <a href="https://stackoverflow.com/">StackOverflow</a>.</p>]]></content><author><name>Lee Kangsoo</name></author><category term="기술블로그" /><summary type="html"><![CDATA[블로그를 열어 두고도 첫 글을 쓰지 않으면, 결국 기본 템플릿만 남습니다. 그래서 긴 글이 아니더라도 일단 기록을 남기기 시작하려고 합니다.]]></summary></entry><entry><title type="html">Jekyll 블로그를 시작한 이유</title><link href="http://localhost:4000/jekyll/update/2023/05/22/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Jekyll 블로그를 시작한 이유" /><published>2023-05-22T23:24:46+09:00</published><updated>2023-05-22T23:24:46+09:00</updated><id>http://localhost:4000/jekyll/update/2023/05/22/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2023/05/22/welcome-to-jekyll.html"><![CDATA[<p>정적인 블로그는 복잡한 기능 없이도 빠르게 글을 남길 수 있다는 점이 좋습니다.
+Jekyll은 구조가 단순해서 오래 두고 관리하기에 부담이 적고, GitHub Pages와도 잘 맞습니다.</p>
+
+<p>무엇보다 글을 쓰는 흐름이 단순합니다.
+마크다운 파일 하나를 추가하고 커밋하면 배포까지 자연스럽게 이어지기 때문에, 기록 자체에 집중하기 쉽습니다.</p>
+
+<p>처음에는 테마 기본 화면으로 시작했지만, 결국 중요한 건 꾸준히 남기는 내용이라고 생각합니다.
+앞으로는 다음 기준으로 블로그를 채워 보려고 합니다.</p>
+
+<ul>
+  <li>짧아도 실제로 도움이 되는 기록일 것</li>
+  <li>문제와 해결 과정을 함께 남길 것</li>
+  <li>시간이 지나 다시 봐도 이해할 수 있게 쓸 것</li>
+</ul>
+
+<p>아주 거창한 목표보다, 하나씩 꾸준히 쌓는 쪽이 더 현실적입니다.</p>]]></content><author><name>Lee Kangsoo</name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[정적인 블로그는 복잡한 기능 없이도 빠르게 글을 남길 수 있다는 점이 좋습니다. Jekyll은 구조가 단순해서 오래 두고 관리하기에 부담이 적고, GitHub Pages와도 잘 맞습니다.]]></summary></entry></feed>
